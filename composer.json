@@ -1,0 +1,24 @@
+{
+    "name": "vermi0ffh/divia-totem",
+    "description": "A wrapper for the Divia Totem API",
+    "keywords": [
+        "divia", "totem", "api", "php"
+    ],
+    "homepage": "https://github.com/vermi0ffh/divia-totem",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/vermi0ffh/divia-totem/issues"
+    },
+    "authors": [
+        {"name": "Aurélien RICHAUD", "email": "aurelien.richaud@btoweb.fr", "homepage": "https://github.com/vermi0ffh/"}
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nategood/httpful" : "0.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Divia\\": "Divia/"
+        }
+    }
+}
