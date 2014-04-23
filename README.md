@@ -8,7 +8,7 @@ Installation
 In composer, add a dependancy :
 ```
 "require": {
-    "vermi0ffh/divia-totem": ">=1.0.0"
+    "vermi0ffh/divia-totem": "dev-master"
 }
 ```
 
