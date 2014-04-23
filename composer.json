@@ -1,6 +1,7 @@
 {
     "name": "vermi0ffh/divia-totem",
     "description": "A wrapper for the Divia Totem API",
+    "version": "1.0.0",
     "keywords": [
         "divia", "totem", "api", "php"
     ],
