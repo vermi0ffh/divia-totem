@@ -70,7 +70,7 @@ class Arret {
      * @return Horaire[]
      */
     public function getHoraires() {
-        $response = Totem::query(array('xml' => 3, 'refs' => $this->refs, 'rand' => time()));
+        $response = Totem::query(array('xml' => 3, 'refs' => $this->refs, 'ran' => 1));
         $ret = array();
 
         if ($response->body instanceof SimpleXMLElement) {
